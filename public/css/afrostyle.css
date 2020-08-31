@@ -1,0 +1,237 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.uk-bg-color-afro {
+    background-color: #674392;
+}
+
+small {
+	font-family: 'Titillium Web', sans-serif;
+}
+#leftBox {
+	background-color: #fff;
+    color: white;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 256px !important;
+    border-right: 1px #e5e5e5 solid;
+    overflow: auto;
+}
+
+.insideLeft {
+	padding: 10px; 
+}
+
+.colorviolet {
+    background-color: #674392;
+    color: white;
+}
+
+.colorbleu {
+    background-color: #1e87f0;
+    color: white;
+}
+
+.uk-nav li > a {
+    /* display: block;
+    text-decoration: none;
+    padding: 7px 5px;
+    color: white; */
+    font-family: 'Titillium Web', sans-serif;
+    /* font-size: 16px; */
+}
+
+/* .uk-nav li > a:hover, .uk-nav li > a:focus {
+    background-color: #452169;
+    color: white;
+} */
+
+#lecteurMp3 {
+	position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+    border-top: 1px #e5e5e5 solid;
+    overflow: auto;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.uk-icon-button {
+    background-color: #674392;
+    color: white;
+}
+
+.afrodate {
+	background-color: #674392;
+	color: white;
+	padding: 5px;
+}
+
+.block_day, .block_mois, .block_year {
+	display: block;
+	position: relative;
+	text-align: center;
+	padding: 0px 20px;
+}
+
+.block_day {
+	font-size: 40px;
+	line-height: .8;
+}
+
+h1, h2, h3, h4, table {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title_video {
+	font-size: 20px;
+	line-height: 1;
+}
+
+.titreArti {
+    border-top: 10px solid #674392;
+    border-bottom: 10px solid #674392;
+}
+
+td a.uk-button {
+    line-height: normal;
+    padding: 5px 5px;
+}
+
+.uk-button-default:focus, .uk-button-default:hover {
+    background-color: #fff;
+    color: #452169;
+    border-color: #fff;
+}
+
+.uk-button-default {
+    background-color: #fff;
+    color: #452169;
+    border: 1px solid #e5e5e5;
+    /* border-radius: 20px; */
+    text-transform: none;
+    /*padding: 0 15px;
+    line-height: 28px;*/
+    font-weight: bolder;
+}
+
+.uk-button-afro:focus, .uk-button-afro:hover {
+    background-color: #452169;
+    color: #fff;
+    border-color: #fff;
+}
+
+.uk-button-afro {
+    /* background-color: #674392; */
+    /* color: #fff; */
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    text-transform: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.uk-button-primary {
+    background-color: #218FF1;
+    color: #fff;
+    /* border: 1px solid #e5e5e5; */
+    /* border-radius: 10px; */
+    text-transform: none;
+    font-weight: bolder;
+}
+
+.uk-label-afro {
+    background-color: #fff;
+    color: #f0506e;
+    border: 1px solid #f0506e;
+    font-size: smaller;
+}
+
+.uk-fa{
+    cursor: pointer;
+}
+
+.uk-fa-red, .uk-fa:hover{
+    color: red;
+}
+
+#lecteur {
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px gray solid;
+    background-color: #fff;
+    width: 100%;
+    z-index: 2000;
+}
+
+.playBorder {
+    border: dotted 1px #674392;
+}
+
+.borderGenre {
+    border: solid 2px #674392;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.borderGenre:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+/******** Menu Gauche *******/
+#menuGauche {
+    padding: 0px 15px;
+    min-height: 500px;
+}
+
+#menuDroite {
+    padding-bottom: 100px; 
+}
+
+#titreTop {
+    border-radius: 10px;
+    background-color: #674392;
+    color: #fff;
+}
+
+#titreTop h2 {
+    color: #fff;
+}
+
+#titreTop select {
+    background-color: transparent;
+    color: #fff;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+    color: white;
+    background-color: #452169;
+    /*border: solid 2px black;*/
+    min-height: 40px;
+    
+}
+
+.uk-navbar-nav > li.uk-active {
+    padding: 20px 0px
+}
+
+.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+    /*min-height: 80px;*/
+    padding: 0 8px;
+    font-size: 25px;
+    color: white;
+    text-transform: none;
+}
+
+.active_css, .active_css:hover {
+    background-color: #452169;
+    color: white;
+    padding: 10px;
+}

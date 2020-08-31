@@ -1,0 +1,227 @@
+.controls-container {
+    width: 100%;
+    height: 42px;
+    color: #eeeeee;
+    position: relative;
+  }
+  .controls-container:hover {
+    cursor: default;
+  }
+  .controls-container:after {
+    content: '';
+    width: calc((100% + 26px));
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+  }
+  .controls-container .play-pause-timeline {
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 42px;
+  }
+  .controls-container .play-pause-timeline .play-pause {
+    font-size: 18px;
+    vertical-align: middle;
+    padding: 0 10px 0 17px;
+  }
+  .controls-container .play-pause-timeline .play-pause:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+  .controls-container .play-pause-timeline .time-wrap {
+    font-size: 14px;
+    vertical-align: middle;
+    padding-right: 20px;
+  }
+  .controls-container .multifunction {
+    height: 100%;
+    float: right;
+    text-align: center;
+    line-height: 42px;
+  }
+  .controls-container .multifunction:hover {
+    cursor: pointer;
+  }
+  .controls-container .multifunction .multifunction-volume,
+  .controls-container .multifunction .multifunction-quality,
+  .controls-container .multifunction .multifunction-setting,
+  .controls-container .multifunction .multifunction-fullscreen {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 0 10px 0 10px;
+  }
+  .controls-container .multifunction .multifunction-volume:hover,
+  .controls-container .multifunction .multifunction-quality:hover,
+  .controls-container .multifunction .multifunction-setting:hover,
+  .controls-container .multifunction .multifunction-fullscreen:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+  .controls-container .multifunction .multifunction-volume {
+    position: relative;
+    padding: 0;
+  }
+  .controls-container .multifunction .multifunction-volume .volume {
+    padding: 10px;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-pause-mask {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box {
+    position: absolute;
+    bottom: 58px;
+    left: 50%;
+    margin-left: -16px;
+    width: 32px;
+    height: 120px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box .current-volume {
+    width: 100%;
+    height: 24px;
+    margin: 0;
+    line-height: 24px;
+    text-align: center;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box .current-volume:hover {
+    cursor: default;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box .current-volume .volume-value {
+    font-size: 13px;
+    font-style: normal;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box .volume-slider {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box .volume-slider .volume-slider-bg {
+    width: 2px;
+    height: 86px;
+    border-radius: 1px;
+    background-color: #fff;
+    position: relative;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box .volume-slider .volume-slider-bg .volume-slider-op {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box .volume-slider .volume-slider-bg .volume-slider-op .volume-slider-op-circle {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .controls-container .multifunction .multifunction-volume .volume-box .volume-slider .volume-slider-bg .volume-slider-mirror {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: -15px;
+    width: 32px;
+    height: calc(100% + 5px);
+  }
+  .controls-container .multifunction .multifunction-quality {
+    position: relative;
+    padding: 0;
+    font-size: 14px;
+  }
+  .controls-container .multifunction .multifunction-quality .quality {
+    padding: 10px;
+  }
+  .controls-container .multifunction .multifunction-quality .quality-box {
+    position: absolute;
+    width: 100px;
+    bottom: 58px;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+  }
+  .controls-container .multifunction .multifunction-quality .quality-box .quality-value {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+  }
+  .controls-container .multifunction .multifunction-quality .quality-box .quality-value:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .controls-container .multifunction .multifunction-setting {
+    position: relative;
+    padding: 0;
+  }
+  .controls-container .multifunction .multifunction-setting .setting {
+    padding: 10px;
+  }
+  .controls-container .multifunction .multifunction-setting .setting-box {
+    position: absolute;
+    width: 100px;
+    bottom: 58px;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    list-style: none;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+  }
+  .controls-container .multifunction .multifunction-setting .setting-box .play-rate .play-rate-value {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  .controls-container .multifunction .multifunction-setting .setting-box .play-rate .play-rate-value:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .controls-container .multifunction .multifunction-setting .setting-box .light-off-mode .light-off-mode-switch {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 30px;
+    position: relative;
+  }
+  .controls-container .multifunction .multifunction-setting .setting-box .light-off-mode .light-off-mode-switch:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .controls-container .multifunction .multifunction-setting .setting-box .light-off-mode .light-off-mode-switch .light-off-mode-switch-btn {
+    position: absolute;
+    right: 24px;
+    top: 6px;
+  }
+  .controls-container .multifunction .multifunction-setting .setting-box .setting-title {
+    width: 100%;
+    height: 34px;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 34px;
+    border-bottom: 1px solid #707070;
+  }
+  .controls-container .multifunction .multifunction-setting .setting-box .setting-title:hover {
+    cursor: default;
+  }
+  

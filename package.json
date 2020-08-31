@@ -1,0 +1,60 @@
+{
+  "name": "afrozik",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "axios": "^0.19.0",
+    "formik": "^2.1.2",
+    "jquery": "^3.4.1",
+    "jwt-decode": "^2.2.0",
+    "mobx": "^5.10.0",
+    "mobx-react": "^6.0.3",
+    "moment": "^2.24.0",
+    "qier-player": "^1.2.5",
+    "qs": "^6.7.0",
+    "react": "^16.8.6",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-app-rewired": "^2.1.3",
+    "react-dom": "^16.8.6",
+    "react-facebook-login": "^4.1.1",
+    "react-fade-in": "^0.1.6",
+    "react-google-login": "^5.0.7",
+    "react-helmet": "^5.2.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.3.0",
+    "react-side-effect": "^2.1.0",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "homepage": "/",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "devDependencies": {
+    "customize-cra": "^0.2.14"
+  }
+}
